@@ -25,7 +25,12 @@ It offers both:
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    ├── app/                 # FastAPI app and model logic
+        ├── main.py          # FastAPI app with sync/async endpoints
+        ├── model.pkl        # Trained LightGBM model
+        └── lgbm_model.py    # Model
+    ├── data/             # Training data
+    ├── Dockerfile        # Container build instructions
+    ├── requirements.txt  # Dependencies
+    ├── docs/             # MkDocs documentation
+    └── mkdocs.yml        # MkDocs configuration    
