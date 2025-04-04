@@ -12,6 +12,7 @@ It includes:
 ## Documentation
 
 Full usage instructions and technical documentation are available at:
+👉 [https://rcroegaert.github.io/titanic-api](https://rcroegaert.github.io/titanic-api)  
 
 
 # Project Structure
