@@ -1,0 +1,38 @@
+site_name: Titanic Prediction Service
+
+nav:
+  - Home: index.md
+  - How to Run: run.md
+  - Model Building: model_building.md
+  - API Endpoints: api_endpoints.md
+  - Containerization: containerization.md
+
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+  - search
+  - glightbox
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
