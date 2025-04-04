@@ -29,8 +29,8 @@ It offers both:
         ├── main.py          # FastAPI app with sync/async endpoints
         ├── model.pkl        # Trained LightGBM model
         └── lgbm_model.py    # Model
+    ├── docs/             # MkDocs documentation
     ├── data/             # Training data
     ├── Dockerfile        # Container build instructions
     ├── requirements.txt  # Dependencies
-    ├── docs/             # MkDocs documentation
-    └── mkdocs.yml        # MkDocs configuration    
+    └── mkdocs.yml        # MkDocs configuration 
