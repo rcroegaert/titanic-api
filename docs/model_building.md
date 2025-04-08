@@ -10,7 +10,7 @@ which contains information about passengers from the Titanic and whether they su
 
 Here is a small sample of the dataset:
 
-![image](/img/DatasetSample.png)
+![image_dataset](img/DatasetSample.png)
 
 ### Features used for training
 
