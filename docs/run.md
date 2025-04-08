@@ -10,7 +10,7 @@ You can then test both the synchronous (`/titanic_sync`) and asynchronous (`/tit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/titanic-api.git
+git clone https://github.com/rcroegaert/titanic-api.git
 cd titanic-api
 ```
 

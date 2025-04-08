@@ -3,17 +3,21 @@
 This project is a lightweight and containerized machine learning API for predicting Titanic passenger survival 
 probabilities using FastAPI and a LightGBM model.
 
+- Synchronous and asynchronous endpoints
 It includes:
 - A trained model
 - Synchronous and asynchronous endpoints
 - Full documentation
 - Containerization with Docker
+- Extra: Streamlit App for interactive testing
 
 ## Documentation
 
-Full usage instructions and technical documentation are available at:
-👉 [https://rcroegaert.github.io/titanic-api](https://rcroegaert.github.io/titanic-api)  
+Full usage instructions and technical documentation [here](https://rcroegaert.github.io/titanic-api])
 
+## Streamlit App
+
+Link to the [Streamlit App](https://titanic-prediction-app.streamlit.app/)
 
 # Project Structure
 

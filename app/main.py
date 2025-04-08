@@ -1,3 +1,5 @@
+from time import sleep
+
 import pandas as pd
 import pydantic
 from fastapi import FastAPI, BackgroundTasks, HTTPException
@@ -37,6 +39,7 @@ def predict_async(data: Passenger, background_tasks: BackgroundTasks):
     jobs[job_id] = None
 
     def run_prediction():
+        sleep(5)
         input_df = pd.DataFrame([{
             "Pclass": data.Pclass,
             "Sex": data.Sex,

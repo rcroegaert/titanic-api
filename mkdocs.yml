@@ -1,4 +1,6 @@
-site_name: Titanic Prediction Service
+site_name: Titanic Prediction API Service
+repo_url: https://github.com/rcroegaert/titanic-api
+
 
 nav:
   - Home: index.md
