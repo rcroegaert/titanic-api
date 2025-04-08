@@ -13,7 +13,7 @@ It includes:
 
 ## Documentation
 
-Full usage instructions and technical documentation [here](https://rcroegaert.github.io/titanic-api/])
+Full usage instructions and technical documentation [here](https://rcroegaert.github.io/titanic-api/)
 
 ## Streamlit App
 
