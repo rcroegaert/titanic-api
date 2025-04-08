@@ -26,6 +26,7 @@ Link to the [Streamlit App](https://titanic-prediction-app.streamlit.app/)
         ├── model.pkl        # Trained LightGBM model
         └── lgbm_model.py    # Model
     ├── docs/             # MkDocs documentation
+    ├── pages/            # Streamlit app pages
     ├── data/             # Training data
     ├── Dockerfile        # Container build instructions
     ├── requirements.txt  # Dependencies
