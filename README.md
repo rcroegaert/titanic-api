@@ -17,7 +17,7 @@ Full usage instructions and technical documentation [here](https://rcroegaert.gi
 
 ## Streamlit App
 
-Link to the [Streamlit App](https://titanic-prediction-app.streamlit.app/)
+Link to the [Streamlit App](https://rcroegaert-titanic-api-titanic-app.streamlit.app/)
 
 # Project Structure
 
