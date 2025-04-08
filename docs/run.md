@@ -35,7 +35,7 @@ http://localhost:8000/docs
 
 This opens the interactive Swagger UI.
 
----
+------
 
 ## Option 2: Run Locally with Python
 
@@ -72,3 +72,25 @@ Navigate to:
 ```
 http://localhost:8000/docs
 ```
+-------
+
+## Extra: Run the Streamlit App (Locally)
+
+This option allows you to test the FastAPI service through a user-friendly web interface built with Streamlit.
+
+### 1. Ensure FastAPI is running locally (see Option 2 or Docker)
+  
+### 2. Run the Streamlit app
+
+```bash
+streamlit run pages/titanic_api.py
+```
+
+### 3. Open your browser
+
+Navigate to:
+```
+http://localhost:8501
+```
+
+The Streamlit interface allows you to test both synchronous and asynchronous prediction endpoints.
